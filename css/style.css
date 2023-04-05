@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerset{
+    position: fixed;
+    overflow:hidden;
+    z-index: 1;
+    background: #333;
+    border-bottom: 1px solid #444;
+    max-height: 60px;
+}
+
+.logo{
+    border-right: 1px solid #444;
+}
+
+.logoimg{
+    width: 150px;
+}
+
+.icon{
+    border-left: 1px solid #444;
+    padding: 12px 18px;
+}
+
+.choiceicons{
+    font-size: x-large;
+    color: #9B9B9B;
+}
+
+.cart{
+    background-color: #7AC64D;
+    color: #ffffff;
+    border-left: 1px solid #444;
+    padding: 12px 16px;
+}
+
+.nitro{
+    color: #9B9B9B;
+    font-size: 17px;
+    line-height: 50px;
+    background: #222;
+    padding: 5px 45px 5px 20px;
+}
+
+.nitro:hover{
+    color: #9B9B9B;
+}
+
+.backgroundimg{
+    height: 700px;
+    object-fit: cover;
+}
+
+.setone{
+    border-bottom: 1px solid #9B9B9B;
+    top: 70px;
+}
+
+.nitroh1{
+    font-size: 32px;
+}
+
+.colorff{
+    color: #007bff;
+}
+
+.navbarset{
+    font-size: 17px !important;
+    color: #cccccc;
+}
+
+.mainpart2{
+    top: 55px;
+    margin-top: 145px;
+}
+
+.welcome{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.welcometext{
+    font-weight: 300;
+    font-size: 24px;
+    width: 700px;
+    margin: 0px 360px 45px 320px;
+}
+
+.button{
+    padding: 12px 35px;
+    font-size: 16px;
+    background-color: #007bff;
+    border-radius: 23px;
+}
+
+.button:hover{
+    background: #000;
+    color: #ffffff;
+}
+
+.mouse{  
+    padding: 4px;
+    border: 2px solid #9B9B9B;
+    width: 24px;
+    border-radius: 12px;
+    margin: 69px 660px;
+}
+
+.mouse:hover{
+    border-color: #ffffff;
+}
+
+.lineDown {
+    animation: 2s anim-lineDown ease-out infinite;
+    font-size: 20px;
+}
+
+@keyframes anim-lineDown {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.aboutpart{
+    margin-bottom: 70px;
+}
+
+.about{
+    font-size: 40px;
+    font-weight: 700; 
+}
+
+.aboutus{
+    width: 540px;
+}
+
+.partset1{
+    padding-left: 80px;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.business{
+    color: gray;
+    font-size: 17px;
+    padding: 25px 0px;
+    width: 425px;
+}
+
+.textli{
+    margin-bottom: 15px;
+    font-size: 17px;
+    list-style-type: none;
+    line-height: 1.5;
+    color: gray;
+}
