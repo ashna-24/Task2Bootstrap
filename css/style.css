@@ -17,7 +17,7 @@
 }
 
 .logoimg{
-    width: 150px;
+    max-width: 150px;
 }
 
 .icon{
@@ -85,8 +85,7 @@
 .welcometext{
     font-weight: 300;
     font-size: 24px;
-    width: 700px;
-    margin: 0px 360px 45px 320px;
+    margin: 0px 360px;
 }
 
 .button{
@@ -104,7 +103,7 @@
 .mouse{  
     padding: 4px;
     border: 2px solid #9B9B9B;
-    width: 24px;
+    max-width: 24px;
     border-radius: 12px;
     margin: 69px 660px;
 }
@@ -146,11 +145,18 @@
 }
 
 .aboutus{
-    width: 540px;
+    max-width: 540px;
 }
 
 .partset1{
     padding-left: 80px;
+}
+
+.textset{
+    font-size: 22px;
+    color: gray;
+    margin: 10px 215px;
+    font-weight: 300;
 }
 
 .text{
@@ -161,13 +167,171 @@
     color: gray;
     font-size: 17px;
     padding: 25px 0px;
-    width: 425px;
+    max-width: 425px;
 }
 
 .textli{
-    margin-bottom: 15px;
     font-size: 17px;
     list-style-type: none;
     line-height: 1.5;
     color: gray;
+}
+
+.about{
+    font-size: 40px;
+    font-weight: 700; 
+}
+
+.minimal{
+    width: 408px;
+}
+
+.businesset{
+    font-size: 22px;
+    color: gray;
+    width: 380px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    font-weight: 300; 
+}
+
+.textsettwo{
+    line-height: 1.7;
+    color: gray;
+    width: 445px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.details{
+    margin-bottom: 45px;
+}
+
+.learnmore{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    background-color: #007bff;
+}
+
+.learnmore:hover{
+    background-color: #000;
+}
+
+.image1{
+    width: 255px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.manager{
+    color: #cccccc;
+    font-size: 13px;
+    letter-spacing: .05rem;
+}
+
+.all{
+    padding: 9px 20px;
+    border: none;
+    font-size: 13px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.portfolioselect{
+    margin-top: 40px;
+}
+
+.selected{
+    background-color: #007bff;
+}
+
+.all:hover{
+    color: #ffffff;
+    background-color: #007bff;
+}
+
+.imageset{
+    width: 255px;
+    margin-bottom:30px;
+}
+
+
+@media screen and (max-width: 320px) and (min-width: 150px) {
+    .welcometext{
+        margin: 0px;
+    }
+
+    .nitrooffcavas{
+        width: 95% !important;
+    }
+
+    .mouse {
+        margin: 40px 148px;
+    }
+
+    .partset1 {
+        padding-left: 0px;
+    }
+
+    .offcanvas-header {
+        justify-content: end !important;
+    }
+
+    .home{
+        color: #007bff !important;
+        font-size: 16px !important;
+    }
+
+    .about, 
+    .textsettwo,
+    .businesset,
+    .business{
+        width: auto;
+    }
+
+    .textset {
+        margin: 0px;
+    }
+
+    .menudark{
+        color: #222 !important;
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .welcometext{
+        margin: 0px 140px;
+    }
+
+    .mouse {
+        margin: 50px 370px;
+    }
+
+    .partset1 {
+        padding-left: 0px;
+    }
+
+    .offcanvas-header {
+        justify-content: end !important;
+    }
+
+    .about, 
+    .textsettwo,
+    .businesset,
+    .business{
+        width: auto;
+    }
+
+    .textset {
+        margin: 10px 140px;
+    }
 }
