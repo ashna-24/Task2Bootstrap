@@ -105,7 +105,7 @@
     border: 2px solid #9B9B9B;
     max-width: 24px;
     border-radius: 12px;
-    margin: 69px 660px;
+    margin: 62px 660px;
 }
 
 .mouse:hover{
@@ -161,6 +161,7 @@
 
 .text{
     font-size: 30px;
+   /*  font-weight: 400; */
 }
 
 .business{
@@ -295,12 +296,12 @@
 .italic{
     line-height: 1.7;
     color: gray;
-    margin: 0px 208px;
+    margin: 0px 208px !important;
     font-size: 24px;
 }
 
 .person{
-    width: 50px;
+    width: 50px !important;
     border-radius: 30px;
 }
 
@@ -403,9 +404,9 @@
     color: #000;
 }
 
-.blogset{
+/* .blogset{
     width: 350px;
-}
+} */
 
 .blogname{
     line-height: 1.7;
@@ -455,9 +456,84 @@
     font-weight: 400;
 }
 
+.formdata{
+    padding: 13px;
+    border-radius: 30px;
+    border: 1px solid #ced4da;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.labeltext{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.textareadata{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.bottom{
+    background: #333333;
+}
+
+.footerbottom{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 50px 0px 100px 0px;
+}
+
+.footertext{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.textfield {
+    border: 1px solid #8d8d8d;
+    border-radius: 30px;
+}
+
+.textinput{
+    padding: 8px 10px;
+    background: transparent;
+    font-size: 17px;
+}
+
+.submit{
+    padding: 0px 30px;
+    font-size: 17px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none; 
+}
+
+.bottomfooter {
+    padding: 20px 0px 60px 0px;
+}
+
+.footerbottomp{
+    margin-top: 30px;
+    color: #8d8d8d;
+    line-height: 1.7;
+    margin-right: 126px;
+    font-size: 17px;
+}
+
+.footerp{
+    width: 299px;
+    color: #8d8d8d;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-right: 126px;
+}
+
 @media screen and (max-width: 320px) and (min-width: 150px) {
     .welcometext{
         margin: 0px;
+    }
+
+    .nitro{
+        display: none;
     }
 
     .nitrooffcavas{
@@ -493,7 +569,7 @@
     }
 
     .italic{
-        margin: 0px;
+        margin: auto !important;
     }
 
     .menudark{
@@ -526,11 +602,15 @@
         width: auto;
     }
 
+    .nitro{
+        display: block;
+    }
+
     .textset {
         margin: 10px 140px;
     }
 
     .italic{
-        margin: 0px;
+        margin: auto !important;
     }
 }
